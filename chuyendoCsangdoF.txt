@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var celsius = parseInt(prompt("nhap do C: "))
+    var fahrenheit = celsius*1.8000 + 32.0;
+
+    document.write(" do F tuong ung: " + fahrenheit);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    var r = parseInt(prompt("Enter the darius: "));
+    var area = (Math.PI * (r * r));
+    var perimeter = (Math.PI * 2 * r);
+
+    document.write("Darius: " + r + "</br>");
+    document.write("perimeter: " + perimeter +"</br>");
+    document.write("Area :" + area ) ;
+
+</script>
+</body>
+</html>
